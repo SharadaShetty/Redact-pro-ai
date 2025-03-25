@@ -68,6 +68,8 @@ Follow these steps to run RedactPro locally:
 ## Screenshots
 
 ![Homepage](assets/images/homepage.png)
+
+
 ![Redaction Popup](assets/images/popup.png)
 
 ## Contributing
