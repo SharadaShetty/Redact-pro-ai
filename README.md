@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, feel free to reach out:
 
 - **Portfolio**: [Shivam Singh](https://byte-shell.vercel.app/)
-- **GitHub**: [shvm2](https://github.com/shvm2)
+- **GitHub**: [Sharada Shetty](https://github.com/SharadaShetty)
