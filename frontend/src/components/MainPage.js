@@ -38,10 +38,10 @@ const MainPage = () => {
       <section id="features" className="features-section">
         <h3 className="section-title">What We Redact</h3>
         <ul className="feature-list">
-          <li><strong>Metadata:</strong> Removes hidden data like creation dates and authors.</li>
-          <li><strong>Facial Data:</strong> Blurs or masks faces to ensure privacy in images.</li>
-          <li><strong>File Text:</strong> Masks sensitive keywords, names, and addresses.</li>
-          <li><strong>Audio Redaction:</strong> Replaces sensitive speech with noise for privacy.</li>
+          <li><strong><span>Metadata:</span></strong> Removes hidden data like creation dates and authors.</li>
+          <li><strong><span>Facial Data:</span></strong> Blurs or masks faces to ensure privacy in images.</li>
+          <li><strong><span>File Text:</span></strong> Masks sensitive keywords, names, and addresses.</li>
+          <li><strong><span>Audio Redaction:</span></strong> Replaces sensitive speech with noise for privacy.</li>
         </ul>
       </section>
 
@@ -59,7 +59,7 @@ const MainPage = () => {
       {showPopup && (
         <div className="popup-overlay" onClick={handleOverlayClick}>
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
-            <h3>Select Redaction Type</h3>
+            <h2>Select Redaction Type</h2>
             <button className="popup-button" onClick={() => handleRedaction('metadata')}>Metadata Redaction</button>
             <button className="popup-button" onClick={() => handleRedaction('face')}>Face Redaction</button>
             <button className="popup-button" onClick={() => handleRedaction('file_text')}>File Text Redaction</button>
