@@ -1,4 +1,4 @@
-# RedactPro
+# RedactPro AI
 
 RedactPro is an advanced AI-driven redaction application designed to securely redact sensitive information from various file formats, including documents, images, PDFs, and audio. The app employs cutting-edge OCR and NLP technologies to identify and mask sensitive information efficiently, offering unparalleled privacy and user control.
 
